@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back_ios" rel="stylesheet"/>
+    <title>Meu trabalho</title>
+
+    <style>
+        /* Estilos gerais (Mobile First) */
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #240852;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(239, 239, 245);
+            font-size: 2rem;
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 30px;
+        }
+
+        p {
+            color: aliceblue;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 11px;
+            font-size: 1rem;
+            background-color: #f57e00;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+        }
+
+        article {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .caixa {
+            background-color: #fcfcfc
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 4px px 12px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        .code {
+            background-color: #f57e00;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 10px;
+        }
+
+        nav ul li a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Estilos para Tablets e maiores */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                padding: 30px;
+            }
+
+            .caixa {
+                max-width: 80%;
+                margin: 40px auto;
+            }
+        }
+
+        /* Estilos para Desktops */
+        @media (min-width: 1024px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+                padding: 40px;
+            }
+
+            .caixa {
+                max-width: 60%;
+                margin: 50px auto;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="code">
+            <h1>Modulação</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="site1.html">
+                            <span class="material-symbols-outlined">arrow_back_ios</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <article>
+        <div class="caixa">
+            <p>A modulação é uma prática essencial no desenvolvimento de software que 
+                consiste em dividir o sistema em partes menores e independentes, chamadas de módulos. 
+                Cada módulo é projetado para desempenhar uma função específica dentro do sistema,
+                 funcionando de maneira autônoma e ao mesmo tempo integrada às outras partes. Essa abordagem
+                  organiza o código de forma lógica e eficiente, facilitando tanto a criação quanto a manutenção de projetos.
+    
+                Ao utilizar a modulação, o desenvolvedor consegue separar responsabilidades de 
+                maneira clara, evitando que diferentes funcionalidades fiquem agrupadas em um único
+                 bloco de código. Isso não apenas torna o sistema mais fácil de entender, mas também melhora 
+                 sua escalabilidade, permitindo a adição de novos módulos sem interferir nos já existentes. Além
+                  disso, a modulação promove a reutilização, pois módulos bem projetados podem ser aproveitados em 
+                  diferentes contextos ou até mesmo em outros projetos, economizando tempo e esforço.
+                
+                Outro benefício importante da modulação é a simplificação da manutenção do código.
+                 Quando surge a necessidade de corrigir um erro ou implementar uma melhoria, é possível concentrar-se 
+                 diretamente no módulo relacionado, sem precisar mexer no restante do sistema. Isso reduz os riscos de
+                  introduzir novos problemas ao realizar alterações. Em projetos colaborativos, a modulação também se 
+                  destaca, permitindo que diferentes membros da equipe trabalhem em módulos distintos simultaneamente,
+                   otimizando o fluxo de trabalho.
+                
+                Por fim, a modulação contribui para a longevidade e adaptabilidade dos sistemas, garantindo que eles possam 
+                crescer e se transformar conforme novas demandas surgem. É uma abordagem que combina organização, eficiência e
+                 flexibilidade, características fundamentais para qualquer software bem-sucedido.</p>
+            <!-- <img src="clear code 3.png" alt="Clear Code"> -->
+        </div>
+    </article>
+</body>
+
+</html>
